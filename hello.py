@@ -1,7 +1,9 @@
-# x = int(input ())exit
-x =85
-if x<=85:
+x = int(input ())
+
+if x<85:
     print('cake')
-if x>=85:
+elif x>85:
     print('uncake')
+else:
+    print ('Vasya vache')
 input()
