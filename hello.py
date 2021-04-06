@@ -1,12 +1,16 @@
 x = int(input ())
-spend = 13000
+spend = 20000
 age = 38
 month = 12
 
-y = x/(spend*month)
 d = spend*month
-f = age+y
+y = (x*month)-d
+f = x - spend
+v = f/75
+b = f/4
 
-print("in year spend %4d" % d)
-print("max age %4d" % f)
-print("year %4d" % y)
+print("in year spend = %d" % d)
+print("skolko nado = %d" % f)
+print("in year = %d" % y)
+print("dollars = %d" % v)
+print("in week = %d" % b)
