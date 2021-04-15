@@ -1,16 +1,17 @@
-x = int(input ())
-spend = 20000
-age = 38
-month = 12
+p40 = 25_000
+ears = 8_000
+watch = 8_000
+foto = 15_000
+mate = 30_000
 
-d = spend*month
-y = (x*month)-d
-f = x - spend
-v = f/75
-b = f/4
+sum = p40+ears+watch+foto+mate
+quater = sum*0.75
 
-print("in year spend = %d" % d)
-print("skolko nado = %d" % f)
-print("in year = %d" % y)
-print("dollars = %d" % v)
-print("in week = %d" % b)
+print('full price = %d' % sum)
+print('quater price = %d' % quater)
+
+print('p40 = %d' % (p40*0.75))
+print('ears = %d' % (ears*0.75))
+print('watch = %d' % (watch*0.75))
+print('foto = %d' % (foto*0.75))
+print('mate = %d' % (mate*0.75))
