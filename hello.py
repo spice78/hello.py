@@ -1,12 +1,9 @@
-x = int(input ())
-spend = 13000
-age = 38
-month = 12
+#x = int(input ())
+max = 200
+sub = 40*75
+donat = 10000
+month = 12*(sub+donat)
 
-y = x/(spend*month)
-d = spend*month
-f = age+y
-
-print("in year spend %4d" % d)
-print("max age %4d" % f)
-print("year %4d" % y)
+print("subscribers %d" % sub)
+print("donates %d" % donat)
+print("year %d" % month)
