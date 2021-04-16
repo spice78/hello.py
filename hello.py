@@ -12,3 +12,4 @@ print('p40 = %d' % (p40*0.75))
 print('foto = %d' % (foto*0.75))
 print('mate = %d' % (mate*0.75))
 #test wat happening i dunno lol
+#test wat from mac govno lol
