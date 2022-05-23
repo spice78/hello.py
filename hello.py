@@ -1,15 +1,17 @@
-p40 = 25000
-foto = 15000
-mate = 30000
+from datetime import datetime
+import calendar
 
-sum = p40+foto+mate
-quater = sum*0.75
+today_to = datetime.today().day
+today = calendar.day_name[datetime.today().weekday()]
+month = calendar.month_name[datetime.today().month]
+sasi = 'sasi'
 
-print('full price = %d' % sum)
-print('quater price = %d' % quater)
+print(today, today_to, month, datetime.today().year)
+if today == 'Sunday':
+    print('Fuck YEAH')
+else:
+    print(sasi.capitalize())
 
-print('p40 = %d' % (p40*0.75))
-print('foto = %d' % (foto*0.75))
-print('mate = %d' % (mate*0.75))
-#test wat happening i dunno lol
-#test wat from mac govno lol
+s = 'Koshka'[::-1].capitalize()
+
+print(''.join(reversed(s)).capitalize())
